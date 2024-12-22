@@ -4,9 +4,8 @@ def add_everything_up(a,b):
     except:
        return f'{a}{b}'
     else:
-        return f"x={a}+{b}, {x=}"
-    finally:
-        print('Как тебе такое, Илон Маск?')
+        return f"{x}"
+
 
 print(add_everything_up(123.456, 'строка'))
 print(add_everything_up('яблоко', 4215))
